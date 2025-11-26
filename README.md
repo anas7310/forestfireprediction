@@ -1,4 +1,4 @@
-🌳 Wildfire Danger Prediction Application
+🌳 **Wildfire Danger Prediction Application**
 
 This is a web application designed to predict the Fire Weather Index (FWI) using a trained machine learning model (Ridge Regression) integrated via a Flask API. The front end is a single, responsive HTML page that collects meteorological and environmental data from the user.
 
@@ -12,8 +12,7 @@ Machine Learning Backend: Utilizes a pre-trained Ridge Regression model and a St
 
 Real-time Risk Display: Classifies the predicted FWI value into Low, Moderate, or High-Risk categories for clear user feedback.
 
-🚀 Setup and Usage
-
+🚀 **Setup and Usage**
 Prerequisites
 
 You need Python and Flask installed, along with the necessary machine learning libraries (scikit-learn, joblib, etc.).
@@ -36,7 +35,7 @@ Run the application using the standard Flask command.
 
 Access the application in your browser (usually http://127.0.0.1:5000/).
 
-📥 Data Input Fields
+📥 **Data Input Fields**
 
 The application requires 9 input features, which are sent to the model for FWI prediction. Ensure the user inputs respect the data types (float/int) for accurate scaling and prediction.
 
@@ -53,7 +52,7 @@ The application requires 9 input features, which are sent to the model for FWI p
 | 8 | Region | float | Geographic Region indicator (e.g., 0 or 1). |
 
 
-⚙️ Prediction Endpoint (/predictdata)
+⚙️ **Prediction Endpoint (/predictdata)**
 
 The Flask function handling predictions executes the following steps:
 
