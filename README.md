@@ -40,85 +40,18 @@ Access the application in your browser (usually http://127.0.0.1:5000/).
 
 The application requires 9 input features, which are sent to the model for FWI prediction. Ensure the user inputs respect the data types (float/int) for accurate scaling and prediction.
 
-Index
+| Index | Field Name | Data Type | Description |
+|-------|------------|-----------|--------------|
+| 0 | Temperature | float | Temperature in degrees Celsius. |
+| 1 | RH | float | Relative Humidity (%). |
+| 2 | Ws | float | Wind Speed (km/h). |
+| 3 | Rain | float | Amount of Rain (mm). |
+| 4 | FFMC | float | Fine Fuel Moisture Code. |
+| 5 | DMC | float | Duff Moisture Code. |
+| 6 | ISI | float | Initial Spread Index. |
+| 7 | Classes | float | Fire occurrence indicator (e.g., 0 or 1). |
+| 8 | Region | float | Geographic Region indicator (e.g., 0 or 1). |
 
-Field Name
-
-Data Type
-
-Description
-
-0
-
-Temperature
-
-float
-
-Temperature in degrees Celsius.
-
-1
-
-RH
-
-float
-
-Relative Humidity (%).
-
-2
-
-Ws
-
-float
-
-Wind Speed (km/h).
-
-3
-
-Rain
-
-float
-
-Amount of Rain (mm).
-
-4
-
-FFMC
-
-float
-
-Fine Fuel Moisture Code.
-
-5
-
-DMC
-
-float
-
-Duff Moisture Code.
-
-6
-
-ISI
-
-float
-
-Initial Spread Index.
-
-7
-
-Classes
-
-float
-
-Fire occurrence indicator (e.g., 0 or 1).
-
-8
-
-Region
-
-float
-
-Geographic Region indicator (e.g., 1 or 2).
 
 ⚙️ Prediction Endpoint (/predictdata)
 
