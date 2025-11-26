@@ -67,3 +67,8 @@ Predicts the FWI value using the trained model.
 Returns the result as a standard JSON object containing the predicted FWI value.
 
 Any error during the process will result in a client-side 400 Bad Request status with an error message to help debug the data flow.
+
+
+**Screenshots**
+![IMG_0486](https://github.com/user-attachments/assets/288ecfdc-8204-4c8b-82fa-332afc6bcf66)
+![IMG_0487](https://github.com/user-attachments/assets/706dce12-8d6d-4ae0-9bb5-3814a37a00eb)
