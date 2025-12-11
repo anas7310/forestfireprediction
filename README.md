@@ -1,3 +1,5 @@
+URL: http://forestfireprediction-env.eba-msvm35c2.ap-south-1.elasticbeanstalk.com/predictdata 
+
 🌳 **Wildfire Danger Prediction Application**
 
 This is a web application designed to predict the Fire Weather Index (FWI) using a trained machine learning model (Ridge Regression) integrated via a Flask API. The front end is a single, responsive HTML page that collects meteorological and environmental data from the user.
